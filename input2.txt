@@ -1,0 +1,1 @@
+@PROG @DECL %a:ENTIER, %b:REEL, %c:CARACTERE, %d:TABLEAU[10] DE ENTIER, %e:TABLEAU[10] DE REEL DECL@ @CORPS %a := 10; %b := 20.9 ; %c := 'c' ; %d[0] := 1 ; %e[0] := 1.1 ; ECRIRE(\"Sum is: \"); ECRIRE(%a ADD %b SOUS %a); FOR(%a=0;%a<10;%a++)%a:=%a++; IF(%a > 5) THEN %a := %a--; IF(%a == 5) THEN %a := %a++; IF(%a < 5 || %a < 5 && %a < 5 ) THEN %a := %a--; CORPS@ PROG@
