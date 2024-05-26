@@ -1,14 +1,7 @@
 @PROG
-@DECL %x:ENTIER, %y:REEL, %z:CHAINE DECL@
-@CORPS
-%x := 42;
-%y := 3.14;
-%z := \"Hello, World!\";
-ECRIRE(\"Value of x: \");
-ECRIRE(%x);
-ECRIRE(\"Value of y: \");
-ECRIRE(%y);
-FOR(%x=0;%x<10;%x++)%x:=%x ADD 1;
-IF(%x >= 10) THEN %x := %x SOUS 10;
+<>
+<====
+FOR(%1=0;%1<10;%1++)%1:=%1 ADD 1;
+IF(%1 >= 10.2) THEN %1 := %1 SOUS 10;
 CORPS@
 PROG@
